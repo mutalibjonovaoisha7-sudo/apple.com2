@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apple kompaniyasi, mahsulotlari, texnologiyalari va tarixi haqida interaktiv loyiha.">
+  <title>Apple — Innovation for Everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Yangi avlod texnologiyalari bilan tanishing. <a href="#latest">Batafsil ko‘rish →</a></div>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a class="brand" href="#top" aria-label="Apple bosh sahifa"><span class="apple-mark">●</span><span>Apple</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menyuni ochish">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#latest">Yangiliklar</a><a href="#iphone">iPhone</a><a href="#mac">Mac</a>
+        <a href="#ipad">iPad</a><a href="#watch">Watch</a><a href="#audio">Audio</a>
+        <a href="#services">Services</a><a href="#history">Tarix</a>
+      </div>
+      <div class="nav-actions"><button id="searchOpen" aria-label="Qidirish">⌕</button><a href="#products" class="bag-link" aria-label="Mahsulotlar">▢</a></div>
+    </nav>
+    <div class="search-panel" id="searchPanel"><input id="searchInput" type="search" placeholder="Apple mahsulotini qidiring..."><button id="searchClose">Yopish</button><div id="searchResults"></div></div>
+  </header>
+
+  <main>
+    <section class="hero" id="latest">
+      <div class="hero-copy">
+        <p class="eyebrow">APPLE • 2026</p>
+        <h1>Kelajakni<br><span>tasavvur qiling.</span></h1>
+        <p class="hero-lead">Texnologiya, ijodkorlik va innovatsiya birlashgan olamga xush kelibsiz.</p>
+        <div class="hero-buttons"><a class="button button-light" href="#products">Mahsulotlarni ko‘rish</a><a class="text-link light-link" href="#history">Apple tarixi ↗</a></div>
+      </div>
+      <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-device"></div><div class="hero-caption">Think different.</div></div>
+      <div class="hero-bottom"><span>01 / 04</span><span>Innovation never stops</span><span class="scroll-cue">PASTGA ⌄</span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">DUNYONI O‘ZGARTIRGAN G‘OYA</p>
+      <h2>Bir qarash. Minglab imkoniyat.</h2>
+      <p class="section-intro">Apple qurilmalar, dasturiy ta’minot va xizmatlarni bir ekotizimga birlashtiradi. Maqsad — murakkab texnologiyani sodda, qulay va foydali qilish.</p>
+    </section>
+
+    <section class="latest-grid section-wrap">
+      <article class="feature-card feature-dark">
+        <div><p class="eyebrow">YANGI AVLOD</p><h2>iPhone 18 Pro</h2><p>Kuchli kamera, tezkor chip va yangi imkoniyatlar.</p><a href="#iphone" class="text-link">Batafsil →</a></div>
+        <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=1100&q=85" alt="Zamonaviy smartfon">
+      </article>
+      <article class="feature-card feature-silver">
+        <div><p class="eyebrow">KATTA IMKONIYAT</p><h2>MacBook Neo</h2><p>Kundalik ijod va ish uchun yengil Mac tajribasi.</p><a href="#mac" class="text-link">Mac olamini ko‘rish →</a></div>
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80" alt="Noutbuk">
+      </article>
+    </section>
+
+    <section class="products-section section-wrap" id="products">
+      <div class="section-heading"><div><p class="eyebrow">APPLE OLAMI</p><h2>Barcha mahsulotlar</h2></div><p>Har bir qurilma — o‘ziga xos tajriba.</p></div>
+      <div class="category-tabs" id="categoryTabs">
+        <button class="active" data-filter="all">Barchasi</button><button data-filter="phone">iPhone</button><button data-filter="computer">Mac</button><button data-filter="tablet">iPad</button><button data-filter="wearable">Watch</button><button data-filter="audio">Audio</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="phone" data-name="iPhone 18 Pro"><div class="product-image"><span class="product-tag">Yangi</span><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=900&q=85" alt="iPhone uslubidagi smartfon"></div><div class="product-info"><p class="eyebrow">IPHONE</p><h3>iPhone 18 Pro</h3><p>Pro darajadagi kamera va A20 Pro chip.</p><strong> $1,199 dan*</strong><a href="https://www.apple.com/iphone/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="phone" data-name="iPhone Duo"><div class="product-image"><img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=900&q=85" alt="Smartfon"></div><div class="product-info"><p class="eyebrow">IPHONE</p><h3>iPhone Duo</h3><p>Yangi shakl va yangi foydalanish tajribasi.</p><strong>Narxni tekshiring</strong><a href="https://www.apple.com/iphone/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="computer" data-name="MacBook Neo"><div class="product-image"><span class="product-tag">Yangi</span><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=85" alt="MacBook uslubidagi noutbuk"></div><div class="product-info"><p class="eyebrow">MAC</p><h3>MacBook Neo</h3><p>13 dyuymli ekran, ixcham va kundalik vazifalar uchun.</p><strong>$599 dan*</strong><a href="https://www.apple.com/mac/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="computer" data-name="MacBook Pro"><div class="product-image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85" alt="Noutbuk"></div><div class="product-info"><p class="eyebrow">MAC</p><h3>MacBook Pro</h3><p>Professional ish, montaj va dasturlash uchun.</p><strong>Narx konfiguratsiyaga bog‘liq</strong><a href="https://www.apple.com/macbook-pro/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="tablet" data-name="iPad Pro"><div class="product-image"><img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=85" alt="Planshet"></div><div class="product-info"><p class="eyebrow">IPAD</p><h3>iPad Pro</h3><p>Katta ijodiy imkoniyatlar va ilg‘or ekran.</p><strong>Narx konfiguratsiyaga bog‘liq</strong><a href="https://www.apple.com/ipad/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="wearable" data-name="Apple Watch Ultra 4"><div class="product-image"><span class="product-tag">Yangi</span><img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=900&q=85" alt="Aqlli soat"></div><div class="product-info"><p class="eyebrow">WATCH</p><h3>Apple Watch Ultra 4</h3><p>Faol hayot va sarguzashtlar uchun.</p><strong>Narxni tekshiring</strong><a href="https://www.apple.com/watch/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="audio" data-name="AirPods 5"><div class="product-image"><img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=85" alt="Simsiz quloqchinlar"></div><div class="product-info"><p class="eyebrow">AUDIO</p><h3>AirPods 5</h3><p>Ochiq dizayn va shovqinni kamaytirish imkoniyati.</p><strong>Narxni tekshiring</strong><a href="https://www.apple.com/airpods/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+        <article class="product-card" data-category="computer" data-name="Mac Studio"><div class="product-image"><img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=900&q=85" alt="Kompyuter ish stoli"></div><div class="product-info"><p class="eyebrow">MAC</p><h3>Mac Studio</h3><p>Og‘ir professional vazifalar uchun ish stansiyasi.</p><strong>Narx konfiguratsiyaga bog‘liq</strong><a href="https://www.apple.com/mac-studio/" target="_blank" rel="noopener">Apple’da ko‘rish ↗</a></div></article>
+      </div>
+      <p class="price-note">* AQSH bozoridagi rasmiy e’lon qilingan boshlang‘ich narxlar. Narxlar konfiguratsiya, soliq, mamlakat va sotuvchiga qarab o‘zgaradi. “Narxni tekshiring” deb ko‘rsatilgan mahsulotlar uchun rasmiy Apple sahifasiga o‘ting. Rasmlar namoyish uchun ishlatilgan.</p>
+    </section>
+
+    <section class="showcase" id="iphone">
+      <div class="showcase-copy"><p class="eyebrow">IPHONE</p><h2>Cho‘ntagingizdagi<br>ulkan imkoniyat.</h2><p>iPhone — telefon, kamera, aloqa vositasi va ijodiy studiya bir qurilmada. iOS, Apple chiplar va xizmatlar bilan uyg‘un ishlaydi.</p><a class="button button-dark" href="https://www.apple.com/iphone/" target="_blank" rel="noopener">iPhone haqida</a></div>
+      <div class="showcase-visual phone-visual"><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=1200&q=90" alt="Smartfon mahsuloti"></div>
+    </section>
+
+    <section class="showcase reverse" id="mac">
+      <div class="showcase-copy"><p class="eyebrow">MAC</p><h2>G‘oyalaringizga<br>tezlik bering.</h2><p>Mac oilasi noutbuk va stol kompyuterlarini o‘z ichiga oladi. Apple silicon chiplar samaradorlik, grafika va energiya tejamkorligini birlashtiradi.</p><a class="button button-dark" href="https://www.apple.com/mac/" target="_blank" rel="noopener">Mac haqida</a></div>
+      <div class="showcase-visual"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=90" alt="Noutbuk mahsuloti"></div>
+    </section>
+
+    <section class="mini-showcases section-wrap">
+      <article class="mini-card" id="ipad"><p class="eyebrow">IPAD</p><h2>Yangi g‘oyalar uchun joy.</h2><p>O‘qish, chizish, yozish va ijod qilish.</p><img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=85" alt="Planshet"><a href="https://www.apple.com/ipad/" target="_blank">iPad oilasi →</a></article>
+      <article class="mini-card" id="watch"><p class="eyebrow">APPLE WATCH</p><h2>Har kuningizni kuzating.</h2><p>Faollik, aloqa va kundalik qulaylik.</p><img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=900&q=85" alt="Aqlli soat"><a href="https://www.apple.com/watch/" target="_blank">Watch oilasi →</a></article>
+      <article class="mini-card" id="audio"><p class="eyebrow">AIRPODS</p><h2>Ovoz olamiga sho‘ng‘ing.</h2><p>Musiqa va qo‘ng‘iroqlar uchun qulay audio.</p><img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=85" alt="Quloqchin"><a href="https://www.apple.com/airpods/" target="_blank">AirPods oilasi →</a></article>
+    </section>
+
+    <section class="vision-section">
+      <div class="vision-copy"><p class="eyebrow">SPATIAL COMPUTING</p><h2>Apple Vision Pro</h2><p>Raqamli kontentni real makon bilan uyg‘unlashtiradigan fazoviy kompyuter tajribasi.</p><a class="text-link" href="https://www.apple.com/apple-vision-pro/" target="_blank">Vision Pro haqida ↗</a></div>
+      <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=1500&q=90" alt="Virtual reallik ko‘zoynagi">
+    </section>
+
+    <section class="services section-wrap" id="services">
+      <div class="section-heading"><div><p class="eyebrow">BIR EKOTIZIM</p><h2>Apple Services</h2></div><p>Qurilmalar bilan birga ishlaydigan xizmatlar.</p></div>
+      <div class="service-grid">
+        <article><span class="service-icon music">♫</span><h3>Apple Music</h3><p>Musiqa tinglash, pleylistlar va yangi ijodkorlarni kashf etish.</p><a href="https://www.apple.com/apple-music/" target="_blank">Batafsil ↗</a></article>
+        <article><span class="service-icon tv">tv+</span><h3>Apple TV+</h3><p>Original seriallar, filmlar va hujjatli loyihalar.</p><a href="https://www.apple.com/apple-tv-plus/" target="_blank">Batafsil ↗</a></article>
+        <article><span class="service-icon cloud">☁</span><h3>iCloud+</h3><p>Suratlar, fayllar va ma’lumotlarni qurilmalar orasida sinxronlash.</p><a href="https://www.apple.com/icloud/" target="_blank">Batafsil ↗</a></article>
+        <article><span class="service-icon arcade">A</span><h3>Apple Arcade</h3><p>Turli janrdagi o‘yinlar to‘plami.</p><a href="https://www.apple.com/apple-arcade/" target="_blank">Batafsil ↗</a></article>
+      </div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="gallery">
+      <div class="section-heading"><div><p class="eyebrow">VISUAL EXPERIENCE</p><h2>Apple Gallery</h2></div><div class="carousel-controls"><button id="galleryPrev" aria-label="Oldingi rasm">←</button><button id="galleryNext" aria-label="Keyingi rasm">→</button></div></div>
+      <div class="carousel-window"><div class="carousel-track" id="galleryTrack">
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=1000&q=85" alt="Smartfon"><span>iPhone — Photography</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=85" alt="Noutbuk"><span>Mac — Creativity</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=85" alt="Planshet"><span>iPad — Imagination</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=1000&q=85" alt="Soat"><span>Watch — Everyday</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=1000&q=85" alt="Quloqchin"><span>AirPods — Sound</span></div>
+      </div></div>
+      <div class="carousel-dots" id="galleryDots"></div>
+    </section>
+
+    <section class="video-section">
+      <div class="video-copy"><p class="eyebrow">WATCH & DISCOVER</p><h2>Apple hikoyalarini tomosha qiling.</h2><p>Mahsulot taqdimotlari, texnologiyalar va ijodiy hikoyalar bilan tanishing.</p><a class="button button-light" href="https://www.youtube.com/@Apple" target="_blank" rel="noopener">Apple videolari ↗</a></div>
+      <div class="video-frame"><div class="play-symbol">▶</div><p>Apple Official Videos</p><span>Rasmiy videolarni YouTube’da ochish uchun tugmani bosing.</span><a href="https://www.youtube.com/@Apple" target="_blank" rel="noopener" aria-label="Apple YouTube kanalini ochish"></a></div>
+    </section>
+
+    <section class="history-section section-wrap" id="history">
+      <div class="section-heading"><div><p class="eyebrow">1976 — BUGUN</p><h2>Apple tarixi</h2></div><p>Kichik garajdagi g‘oyadan global texnologiya kompaniyasigacha.</p></div>
+      <div class="timeline">
+        <article><span>1976</span><div><h3>Apple tashkil topdi</h3><p>Steve Jobs, Steve Wozniak va Ronald Wayne Apple Computer kompaniyasiga asos soldi.</p></div></article>
+        <article><span>1977</span><div><h3>Apple II</h3><p>Shaxsiy kompyuterlar ommalashishiga yordam bergan muhim mahsulotlardan biri.</p></div></article>
+        <article><span>1984</span><div><h3>Macintosh</h3><p>Grafik interfeys va sichqoncha bilan ishlash tajribasini keng auditoriyaga olib keldi.</p></div></article>
+        <article><span>2001</span><div><h3>iPod</h3><p>Raqamli musiqa tinglash usulini o‘zgartirgan portativ musiqa qurilmasi.</p></div></article>
+        <article><span>2007</span><div><h3>Birinchi iPhone</h3><p>Telefon, musiqa pleeri va internet qurilmasini bitta sensorli mahsulotda birlashtirdi.</p></div></article>
+        <article><span>2010</span><div><h3>Birinchi iPad</h3><p>Planshetlar bozorida yangi foydalanish yo‘nalishini ommalashtirdi.</p></div></article>
+        <article><span>2015</span><div><h3>Apple Watch</h3><p>Bilakdagi aqlli qurilma orqali aloqa, faollik va ilovalarni birlashtirdi.</p></div></article>
+        <article><span>2020</span><div><h3>Apple silicon</h3><p>Mac kompyuterlari uchun Apple tomonidan ishlab chiqilgan chiplar davri boshlandi.</p></div></article>
+        <article><span>2024</span><div><h3>Apple Vision Pro</h3><p>Fazoviy hisoblash tajribasiga yangi yo‘nalish olib kirdi.</p></div></article>
+        <article><span>2026</span><div><h3>Yangi avlod</h3><p>Apple yangi iPhone, Mac, Watch va audio mahsulotlari hamda dasturiy imkoniyatlarini rivojlantirishda davom etmoqda.</p></div></article>
+      </div>
+    </section>
+
+    <section class="innovation-section">
+      <div class="section-wrap"><p class="eyebrow">WHAT MAKES APPLE</p><h2>Innovatsiya faqat qurilma emas.</h2><div class="innovation-grid">
+        <article><b>01</b><h3>Apple silicon</h3><p>Chip, apparat va dasturiy ta’minot uyg‘unligi.</p></article>
+        <article><b>02</b><h3>Accessibility</h3><p>Texnologiyani ko‘proq insonlar uchun qulay qilish.</p></article>
+        <article><b>03</b><h3>Privacy</h3><p>Maxfiylikni mahsulot va xizmatlar dizaynining muhim qismi sifatida ko‘rish.</p></article>
+        <article><b>04</b><h3>Environment</h3><p>Materiallar, energiya va ta’minot zanjirida ekologik ta’sirni kamaytirishga intilish.</p></article>
+      </div></div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div><p class="eyebrow">ABOUT APPLE</p><h2>Texnologiyani insonlar uchun yaratish.</h2></div>
+      <div class="about-text"><p>Apple Inc. — bosh qarorgohi Kaliforniyaning Cupertino shahrida joylashgan texnologiya kompaniyasi. Kompaniya iste’molchi elektronikasi, dasturiy ta’minot va raqamli xizmatlar ishlab chiqadi.</p><p>Apple mahsulotlari dizayn, foydalanish qulayligi, apparat va dasturiy ta’minotning o‘zaro uyg‘unligi bilan tanilgan. Kompaniya iPhone, Mac, iPad, Apple Watch, AirPods va boshqa mahsulotlar oilasini rivojlantiradi.</p><a href="https://www.apple.com/" target="_blank" rel="noopener" class="text-link">Apple rasmiy sayti ↗</a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top"><div><a class="brand footer-brand" href="#top">● Apple</a><p>Innovation for everyone.</p></div><div class="footer-links"><div><b>Mahsulotlar</b><a href="#iphone">iPhone</a><a href="#mac">Mac</a><a href="#ipad">iPad</a><a href="#watch">Watch</a></div><div><b>Apple</b><a href="#history">Tarix</a><a href="#services">Services</a><a href="#about">Kompaniya</a><a href="#gallery">Gallery</a></div><div><b>Manbalar</b><a href="https://www.apple.com/newsroom/" target="_blank">Newsroom ↗</a><a href="https://www.apple.com/" target="_blank">Rasmiy sayt ↗</a><a href="https://www.youtube.com/@Apple" target="_blank">YouTube ↗</a></div></div></div>
+    <div class="footer-bottom"><span>© 2026 Apple World — O‘quv loyiha.</span><span>Bu Apple Inc.ning rasmiy sayti emas. Mustaqil ta’lim loyihasi.</span><a href="#top">Yuqoriga ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
